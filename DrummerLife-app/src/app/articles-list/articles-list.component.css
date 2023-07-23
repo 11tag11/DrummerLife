@@ -1,0 +1,28 @@
+/* .article {
+    flex: 1;
+    float: left;
+    
+    padding: 10px;
+    background-color: rgb(102, 238, 163);
+    color: rgb(92, 77, 58);
+    border: 1px black solid;
+    margin: 10px 20px 20px 10px;
+} */
+
+.article-section {
+    
+    background-color: rgb(102, 238, 163);
+    width: 80%;
+    border: 1px solid #999;
+    margin: 20px
+}
+img {
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+

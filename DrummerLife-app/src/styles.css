@@ -1,0 +1,82 @@
+*Removes all default whitespace
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+*Reset CSS model sizing calculations
+*/
+html { 
+  background: url(./assets/Images/back-view-crowd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+/* Typography */
+
+html {
+  
+    /* font: 18px/1.5 Verdana, sans-serif; */
+}
+
+/* Global Styles */
+
+body {
+  
+  /* max-width: 1366px; */
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 1px dashed #999;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  background-color: #4ebced;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Handles Responsive Behaviour */
+
+@media (min-width: 800px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+      font-size: 18px;
+  }
+}
+  

@@ -1,0 +1,23 @@
+header {
+    background-color: #2be28d;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-nav a {
+    padding: 10px;
+    margin-right: 10px;
+    background: white;
+}
+
+.right-nav a {
+    padding: 10px;
+    margin-right: 10px;
+    background: white;
+}

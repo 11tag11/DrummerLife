@@ -1,0 +1,24 @@
+<header>
+  <div>
+    <h1>Drummer Life Blog</h1>
+  </div>
+  <nav>
+    <div class="left-nav">
+      <a routerLink="/home">Home</a>
+      <a routerLink="/articles">All Articles</a>
+      <a routerLink="/add-article">New Article</a>
+    </div>
+    <div class="right-nav">
+       <div *ngIf="isLoggedIn">
+        <a routerLink="/profile">{{ firstName }}'s profile</a>
+        <!-- <a (click)="logout()">Logout</a> -->
+         <a href="#" (click)="logout()">Logout</a>
+      </div> 
+
+       <div *ngIf="!isLoggedIn">
+        <a routerLink="/login">Login</a>
+        <a routerLink="/register">Register</a>
+      </div> 
+    </div>
+  </nav>
+</header>

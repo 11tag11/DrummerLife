@@ -1,0 +1,56 @@
+
+<!-- <aside class="aside-section">
+    <img src="image2.jpg" alt="Image 2">
+    <p>Text below image 2</p>
+</aside>
+
+<aside>
+    <div class="aside" *ngIf="!isLoading">
+        <h2 class="title">Recent posts</h2>
+
+        <div *ngIf="thereAreNoPosts">
+            <h3>There are no articles maafaa!</h3>
+        </div>
+
+
+        <div>
+            <div *ngFor="let article of lastArticlesList" class="aside-theme">
+                <a href="#">
+                    <h3>{{ article.articleId.articleName }}</h3>
+                    <p>{{ article.userId.username }}</p>
+                    <p><span>{{ article.created_at }}</span></p>
+                </a>
+            </div>
+        </div>
+    </div>
+</aside> -->
+
+<div class="container">
+
+    <aside class="aside-section">
+        <div class="aside" *ngIf="!isLoading">
+            <h2 class="title">Popular posts</h2>
+    
+            <div *ngIf="thereAreNoPosts">
+                <h3>There are no articles maafaa!</h3>
+            </div>
+    
+    
+            <div>
+                <div *ngFor="let post of postsList" class="aside-theme">
+                     <a href="#">
+                        <h3>{{ post }}</h3> <!--WTF?-->
+
+                        <!-- <h3>{{ post.articleId.articleName }}</h3> -->
+
+                        <p>{{ post.userId.username }}</p>
+                        <p><span>{{ post.created_at }}</span></p>
+                    </a> 
+                    <!-- <app-posts-list /> -->
+    
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</div>
