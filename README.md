@@ -2,9 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Navigate to `Rest-api`, run `npm install`, and run `npm start` to run the Rest-api.
+
+Navigate to `DrummerLife-app`, run `npm install`, and run `ng serve` to run the Application.
+
+## Running the project
+
 
 ## Code scaffolding
 
