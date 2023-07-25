@@ -1,5 +1,7 @@
 .container {
-    justify-content: left;
+    box-sizing: border-box;
+    /* justify-content: left; */
+    
     
 
 }

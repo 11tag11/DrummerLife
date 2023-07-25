@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserModule } from './user/user.module';
 import { NewArticleComponent } from './article/new-article/new-article.component';
 import { ArticlePreviewComponent } from './shared/article-preview/article-preview.component';
-import { ViewArticleComponent } from './article/view-article/view-article.component';
+// import { ViewArticleComponent } from './article/view-article/view-article.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { ViewArticleComponent } from './article/view-article/view-article.compon
     PostsListComponent,
     ArticlePreviewComponent,
     NewArticleComponent,
-    ViewArticleComponent
+    // ViewArticleComponent
   ],
   imports: [
     BrowserModule,

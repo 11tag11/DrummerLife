@@ -17,10 +17,13 @@ export class ApiService {
     return this.http.get<Articles>(`${appUrl}/articles/${id}`);
   }
 //
-  getArticles() {
+  getArticles(limit?: number) {
     const { appUrl } = environment;
 
-    return this.http.get<Articles[]>(`${appUrl}/articles`);
+    const limitFilter = limit? `?limit=${limit}` : '';
+
+
+    return this.http.get<Articles[]>(`${appUrl}/articles${limitFilter}`);
   }
 
 
