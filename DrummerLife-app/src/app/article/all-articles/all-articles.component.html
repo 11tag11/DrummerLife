@@ -1,0 +1,91 @@
+
+
+    
+        <section class="article-section">
+
+            <!-- <div class="big-image">
+                 <img
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRii4Egq_ek_qu7APn4ItwFs03kHCuHwDupnw&usqp=CAU">
+                 
+             </div>
+ 
+             <div>
+                 <a href="#" class="normal">
+                     <h2>{{ 'article.articleName' }}</h2>
+                 </a>
+             </div>
+             
+             
+             <div>
+                 <p>Date: <time>{{ 'article.created_at' }}</time></p>
+                 <div class="nick-name">
+                     <p>Username: <span>{{ 'article.userId.username' }}</span></p>
+                 </div>
+             </div>
+             <div class="subscribers">
+                 <p>Subscribers: <span>{{ 'article.subscribers.length' }}</span></p>
+                 <button class="subscribe">Subscribe</button>
+             </div> -->
+             
+             
+             
+             <div *ngFor="let article of articlesList">
+ 
+                 <article class="article">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRii4Egq_ek_qu7APn4ItwFs03kHCuHwDupnw&usqp=CAU">
+
+                    </div>
+                     <a [routerLink]="article._id" class="normal">
+                         <h2>{{ article.articleName }}</h2>
+                     </a>
+                     <div class="columns">
+                         <div>
+                             <p>Date: <time>{{ article.created_at }}</time></p>
+                             <div class="nick-name">
+                                 <p>Username: <span>{{ article.userId.username }}</span></p>
+                             </div>
+                         </div>
+                         <div class="subscribers">
+                             <p>Subscribers: <span>{{ article.subscribers.length }}</span></p>
+                             <button class="subscribe">Subscribe</button>
+                         </div>
+                     </div>
+                 </article>
+             </div>
+ 
+         
+         </section>
+     
+ 
+ 
+ 
+ 
+ 
+ <!--<main>
+     <section class="article-section">
+         <img src="image1.jpg" alt="Image 1">
+         <p>Text below image 1</p>
+         <div *ngFor="let article of articlesList" class="theme-container">
+             <div class="theme-name-wrapper">
+                 <div class="theme-name">
+                     <a href="#" class="normal">
+                         <h2>{{ article.articleName }}</h2>
+                     </a>
+                     <div class="columns">
+                         <div>
+                             <p>Date: <time>{{ article.created_at }}</time></p>
+                             <div class="nick-name">
+                                 <p>Username: <span>{{ article.userId.username }}</span></p>
+                             </div>
+                         </div>
+                         <div class="subscribers">
+                             <button class="subscribe">Subscribe</button> 
+                             <p>Subscribers: <span>{{ article.subscribers.length }}</span></p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+ </main>-->

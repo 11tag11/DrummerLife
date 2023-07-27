@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 // import { ViewArticleComponent } from './article/view-article/view-article.component';
 import { NewArticleComponent } from './article/new-article/new-article.component';
 import { ArticlePreviewComponent } from './shared/article-preview/article-preview.component';
+import { AllArticlesComponent } from './article/all-articles/all-articles.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,7 @@ const routes: Routes = [
         {
             path: '',
             pathMatch: 'full',
-            component: HomeComponent
+            component: AllArticlesComponent
         },
         {
             //13

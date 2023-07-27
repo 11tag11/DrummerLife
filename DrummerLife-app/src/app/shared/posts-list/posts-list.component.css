@@ -1,7 +1,9 @@
-.container {
-    box-sizing: border-box;
-    /* justify-content: left; */
+.aside-section {
+    display: flex;
+    background-color: rgb(102, 238, 163);
     
-    
+}
 
+.posts {
+    padding: 20px;
 }

@@ -1,0 +1,11 @@
+.article-section {
+    display: flex;
+    background-color: rgb(102, 238, 163);
+    width: 80%;
+    border: 1px solid #999;
+    margin: 20px
+}
+.image{
+    justify-content: center;
+    width: 50%;
+}

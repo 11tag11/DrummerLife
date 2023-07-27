@@ -9,6 +9,11 @@
 /*
 *Reset CSS model sizing calculations
 */
+
+
+
+
+
 html { 
   background: url(./assets/Images/back-view-crowd.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -27,10 +32,10 @@ html {
 
 /* Typography */
 
-html {
+/* html {
   
-    /* font: 18px/1.5 Verdana, sans-serif; */
-}
+    font: 18px/1.5 Verdana, sans-serif;
+} */
 
 /* Global Styles */
 
