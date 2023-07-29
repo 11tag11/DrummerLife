@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArticlePreviewComponent } from './article-preview.component';
+import { ArticlePreviewComponent } from './ArticlePreviewComponent';
 
 describe('ArticlePreviewComponent', () => {
   let component: ArticlePreviewComponent;

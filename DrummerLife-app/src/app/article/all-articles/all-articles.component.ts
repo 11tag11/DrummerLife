@@ -31,7 +31,7 @@ export class AllArticlesComponent implements OnInit{
           //   this.thereAreNoArticles = true;
           // }
   
-          this.isLoading = false;
+          // this.isLoading = false;
           // this.isLoading = true;
         },
         error: (err) => {
