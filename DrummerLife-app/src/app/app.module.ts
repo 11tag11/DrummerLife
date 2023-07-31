@@ -15,6 +15,7 @@ import { RouterModule } from '@angular/router';
 import { ArticleModule } from "./article/article.module";
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 // import { ViewArticleComponent } from './article/view-article/view-article.component';
 
@@ -31,12 +32,12 @@ import { AppRoutingModule } from './app-routing.module';
     ],
     imports: [
       BrowserModule,
-      
       HttpClientModule,
       CoreModule,
       UserModule,
       RouterModule,
       AppRoutingModule,
+      FormsModule,
   ],
     providers: [],
     bootstrap: [AppComponent],

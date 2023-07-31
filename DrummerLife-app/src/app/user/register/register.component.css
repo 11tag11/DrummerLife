@@ -1,12 +1,15 @@
 
 
+
+
+
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 
-    /* min-height: 100vh; */
 }
 
 .registration-form {
@@ -28,7 +31,6 @@
 }
 
 .form-group label {
-    /* display: block; */
     margin-bottom: 5px;
 }
 
@@ -52,4 +54,4 @@
 
 .form-group button:hover {
     background-color: rgb(93, 192, 137);
-}
+} 

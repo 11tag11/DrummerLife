@@ -10,17 +10,22 @@
 *Reset CSS model sizing calculations
 */
 
+body { 
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./assets/Images/back-view-crowd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-
-
-
-html { 
+/* body { 
   background: url(./assets/Images/back-view-crowd.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+  
+} */
 
 html {
     box-sizing: border-box;
